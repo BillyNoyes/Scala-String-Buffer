@@ -1,4 +1,4 @@
-# Scala-Buffer
+# Scala String Buffer Manipulation
 
 ## Description
 A Scala project that uses the command line to manipulate StringBuilder text using the functions that have been implemented. The StringBuilder splits up the inputted String into an indexed sequence of characters and then this can be interacted with through inputting the function, these include moving the cursor to different indexes, deleting characters within a region or quickly replacing specific characters with another.
@@ -40,3 +40,6 @@ fb() - Locate the previous occurrence of a letter before the cursor position
 
 ## Testing
 Testing has been carried out using JUnit 4 (BufferTest.scala) and 100 tests to ensure that each of the functions work with all different types of input to produce the correct expected output.
+
+## To Implement
+Allow user to input their own String which they can then manipulate using the Buffer functions.
